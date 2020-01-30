@@ -1,0 +1,12 @@
+/* This exists because I need to change the z-index to allow a button to go over the carousel for the assignment. WIP. */
+
+carousel-inner {
+  pointer-events: none;
+  z-index: 10;
+  width: 100%; /*this must stay */
+  height: 100%; /*this must stay */
+}
+
+carousel {
+  height: 400px;
+}
